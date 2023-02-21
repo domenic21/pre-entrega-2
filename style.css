@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Ajuste de estilo de NAVBAR */
+
+.navbar-brand {
+    font-family: 'Bungee Spice', cursive;
+    color: orangered;
+    padding-bottom: 3em;
+   
+
+    /* aplicacion del font nombre de pagina */
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+
+}
+
+/* main */
+.main {
+    background: url(img/bodybuilder.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.main p {
+    font-size: 2rem;
+
+
+}
+
+.btn {
+    height: 75px;
+    width: 400px;
+    color: white;   
+}
+
+
+.details h1{
+    font-weight: 800;   
+    font-size: 2.8rem;
+    color:azure ;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+
+}
+.details p {
+    font-size: 2rem;
+    color: azure;
+    
+}
+
