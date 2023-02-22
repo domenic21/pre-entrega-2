@@ -48,10 +48,11 @@
 }
 
 .btn {
-    height: 75px;
-    width: 400px;
+    height: 60px;
+    width: 300px;
     color: white;   
 }
+
 
 
 .details h1{
@@ -69,3 +70,6 @@
     
 }
 
+.container img{
+    
+}
