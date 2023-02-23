@@ -12,7 +12,7 @@
 .navbar-brand {
     font-family: 'Bungee Spice', cursive;
     color: orangered;
-    padding-bottom: 3em;
+    padding-bottom: 1.5em;
    
 
     /* aplicacion del font nombre de pagina */
@@ -41,15 +41,19 @@
 
 }
 
+
 .main p {
     font-size: 2rem;
 
 
 }
+.text{
+    padding-top: 3rem;
+}
 
 .btn {
-    height: 60px;
-    width: 300px;
+    height: 50px;
+    width: 200px;
     color: white;   
 }
 
@@ -57,11 +61,12 @@
 
 .details h1{
     font-weight: 800;   
-    font-size: 2.8rem;
+    font-size: 2rem;
     color:azure ;
     align-items: center;
     justify-content: center;
     padding-left: 30%;
+   
 
 }
 .details p {
@@ -69,7 +74,7 @@
     color: azure;
     
 }
-
-.container img{
-    
+h3{
+    font-size: 1.5rem;
 }
+
