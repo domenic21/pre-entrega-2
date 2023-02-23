@@ -35,10 +35,10 @@
 
 /* main */
 .main {
-    background: url(img/bodybuilder.jpg);
+    background: url(/img/bodybuilder.jpg);
     background-size: cover;
     height: 100vh;
-
+    
 }
 
 
