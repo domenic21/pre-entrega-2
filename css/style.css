@@ -120,3 +120,11 @@ color: azure;
     transition: all 0.4s;
     cursor: pointer;
 }
+.planes{
+  
+}
+.img-container{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
