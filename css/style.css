@@ -40,7 +40,7 @@
 /* main */
 .main {
     
-    background:url(/img/background.jpg);
+    background:url(../img/background.jpg);
     background-size:cover;
     height: 100vh;
     
