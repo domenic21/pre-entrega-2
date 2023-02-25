@@ -39,7 +39,8 @@
 
 /* main */
 .main {
-    background:url(../img/background.jpg);
+    
+    background:url(/img/background.jpg);
     background-size:cover;
     height: 100vh;
     
@@ -121,9 +122,17 @@ color: azure;
     cursor: pointer;
 }
 
-
+/* ====================cards=============== */
 .img-container{
-    width: 200px;
+    
+    width: 40vh;
     height: 300px;
     object-fit: contain;
+    align-items: center;
+    
 }
+.card{
+    margin-top: 10rem;
+}
+
+
