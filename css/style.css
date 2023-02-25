@@ -158,5 +158,8 @@ color: azure;
     opacity: 0.5;
     
 }
+.img-container{
+    background-image:url(../img/6\ months.jpg);
+}
 
 
