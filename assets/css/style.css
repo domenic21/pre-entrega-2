@@ -159,5 +159,66 @@ color: azure;
     
 }
 
+/* ===============Contact page========= */
+.formulario{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    
+}
+
+.container-registration{
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding:  25px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 19px 16px 5px rgba(44, 1, 1, 0.76);
+
+}
+.tittle{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-registration .tittle::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+
+}
+.container-registration form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100%/2 - 20px);
+    
+}
+.user-details .input-box input{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid ;
+    padding-left: 15px;
+    font-size: 16px;
+}
 
 
